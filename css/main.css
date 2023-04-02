@@ -1,0 +1,87 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 50px;
+    top: px;
+}
+
+.wrapper {
+    max-width: 1460px;
+    margin: 0 auto;
+}
+
+.banner {
+    position: absolute;
+width: 1920px;
+height: 32px;
+left: 0px;
+top: 0px;
+background: #636363;
+}
+
+.banner > p {
+    position: absolute;
+    left: 694px;
+    font-size: 13px;
+    top: -5px;
+    color: #FFFFFF;
+}
+
+body header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Search Bar*/
+
+.search-bar-wrapper {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 1332px;
+    top: 101px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    padding: 5px;
+  }
+
+  .search-bar input[type="text"] {
+    border: none;
+    font-size: 16px;
+    width: 1000px;
+    padding-left: 5px;
+  }
+
+.log-in {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 133px;
+height: 14px;
+left: 1493px;
+top: 71px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+
+}
